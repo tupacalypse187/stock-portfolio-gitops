@@ -34,7 +34,6 @@ This repository contains the **Kubernetes manifests** and **ArgoCD configuration
 ### 1. Register This Repo With ArgoCD
 
 - Add this repo as a new ArgoCD Application, or simply apply `argocd_application.yaml`:
-`kubectl apply -f argocd_application.yaml`
 
 ### 2. Structure
 ```
