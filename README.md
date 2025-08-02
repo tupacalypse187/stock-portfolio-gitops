@@ -38,7 +38,7 @@ This repository contains the **Kubernetes manifests** and **ArgoCD configuration
 ### 2. Structure
 ```
 stock-portfolio-gitops/
-├── README-gitops.md
+├── README.md
 ├── argocd_application.yaml
 └── k8s/
 ├── deployment.yaml
