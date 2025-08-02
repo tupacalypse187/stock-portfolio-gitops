@@ -54,7 +54,7 @@ stock-portfolio-gitops/
 ```
 containers:
 - name: portfolio-tracker
-image: docker.io/tupacalypse187/stock-portfolio-tracker:<new-tag>
+  image: <registry>/<username>/stock-portfolio-tracker:<new-tag>
 ```
 
 ---
