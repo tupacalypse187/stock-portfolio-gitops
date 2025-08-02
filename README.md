@@ -76,10 +76,10 @@ key: public-api-key
 
 - To create secrets:
 ```
-kubectl create secret generic portfolio-secrets
---from-literal=public-api-key=REPLACE_ME
---from-literal=db-password=REPLACE_ME
--n portfolio-tracker
+kubectl create secret generic portfolio-secrets \
+  --from-literal=public-api-key=YOUR_API_KEY_HERE \
+  --from-literal=db-password=YOUR_SECURE_PASSWORD_HERE \
+  -n portfolio-tracker
 ```
 
 
